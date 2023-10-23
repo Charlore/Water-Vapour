@@ -1,0 +1,112 @@
+/*CSS for my demonstration project*/
+body{
+   font-family: "DIN";
+   width: 100%;
+   margin: auto;
+   background-color:#1b2838;
+}
+h1 {
+   color: #346c9e ;
+   margin-left: 80px;
+   text-align: center;
+}
+h2 {
+   color: #ff00dd ;
+   margin-left: 80px;
+   text-align: left;
+}
+nav{
+   background-color: #171d25 ;
+   height: 40px;
+   padding-bottom: 20px;
+   margin-right: 20px;
+}
+nav ul {
+   list-style: none; 
+   padding-top: 8px; 
+}
+nav li {
+   display: inline;
+}
+nav a {
+   text-decoration: none;
+   color: #c5c3c0;
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-right: 20px;
+}
+nav b {
+   text-decoration: none;
+   color: #493595;
+   font-size: 1.2em;
+   font-weight: bold;
+   margin-right: 20px;
+}
+nav a:hover{
+   color: black;
+}
+section {
+
+   float: left;
+   width: 100%;
+   margin-right: 5%;
+   margin-bottom: 20px;
+}
+p {
+   color: #c5c3c0 ;
+   text-align: center;
+}
+footer {
+   clear: both;
+   background-color: #171d25;
+   color: white;
+   height: 30px;
+   text-align: center;
+}
+footer a {
+   text-decoration: none;
+   color: white;
+   margin-left: 20px;
+}
+table {
+  width: 100%;
+}
+div.installcorner{
+   padding-bottom: 0px; 
+   background-color: #5c7e10; 
+   position: absolute; 
+   right: 10%; 
+   top: 0%; 
+   text-align: right;
+}
+div.installcornerb{
+   padding-bottom: 0px;
+   position: absolute; 
+   right: 0%; 
+   top: 0%; 
+   text-align: right;
+}
+div.installcornerb a{
+   text-decoration: none;
+   color: white;
+}
+div.installcorner a{
+   text-decoration: none;
+   color: white;
+}
+.image_right{
+   float:right;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.image_left{
+   float:left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
