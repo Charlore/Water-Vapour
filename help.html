@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>   
+    function Failed() {   
+    window.alert("FAILED CAPTCHA get gud you big stinky bumhead")
+    }   
+</script> 
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+    <link href="src/fakerecaptcha.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/myStyles.css" />
+    <link href="https://db.onlinewebfonts.com/c/43c793eb9fcfce5efd986389cceb93d0?family=DIN" rel="stylesheet">
+</head>
+<body>
+    <div style="min-width: 960px; margin: 0 auto;">
+<header>
+    <div class="installcorner"><a href="help.html">Install Water Vapour</a></div>
+    <div class="installcornerb"><a href="login.html">Login | </a></div>
+</header>
+<nav style="text-align: center;">
+    <ul>
+        <li><a href="index.html"><img src="img\WATER VAPOUR.png" alt="WATER VAPOUR LOGO" height="50" width="200"> </a> </li>
+        <li><a href="index.html">MARKET</a></li>
+        <li><a href="groups.html">GROUPS</a></li>
+        <li><a href="details.html">DETAILS</a></li>
+        <li><a href="help.html">HELP</a>
+        <li><a href="checkout.html">CHECKOUT</a>
+        <li><a href="secret.html" style="color: #171d25;">Secret</a></li>
+    </ul>   
+</nav>
+<main>
+</main>
+</body>
+<p style="font-size: 30px;">At Water Vapour we are proud to be a thin and plain community and therefore, we make sure to not help out our <s>gullible money makers</s> customers!</p>
+<p style="font-size: 30px;">And therefore, all you have to do to contact us is complete this captcha:</p>
+ <!-- Fake captcha start -->
+ <div class="center" class="fkrc-container fkrc-m-p">
+    <!-- Captcha checkbox widget -->
+    <div id="fkrc-checkbox-window" class="fkrc-checkbox-window fkrc-m-p fkrc-block">
+        <div class="fkrc-checkbox-container fkrc-m-p">
+            <button type="button" id="fkrc-checkbox" class="fkrc-checkbox fkrc-m-p fkrc-line-normal"></button>
+        </div>
+        <p class="fkrc-im-not-a-robot fkrc-m-p fkrc-line-normal">I'm not a robot</p>
+        <img src="images/captcha_logo.svg" class="fkrc-captcha-logo fkrc-line-normal" alt="">
+        <p class="fkrc-checkbox-desc fkrc-m-p fkrc-line-normal">CAPTCHA</p>
+        <p class="fkrc-checkbox-desc fkrc-m-p fkrc-line-normal">Privacy - Terms</p>
+        <img src="images/captcha_spinner.gif" class="fkrc-spinner fkrc-m-p fkrc-line-normal" alt="" id="fkrc-spinner">
+    </div>
+    <!-- Captcha checkbox verification window -->
+    <div id="fkrc-verifywin-window" class="fkrc-verifywin-window">
+        <div class="fkrc-verifywin-container">
+            <header class="fkrc-verifywin-header">
+                <span class="fkrc-verifywin-header-text-medium fkrc-m-p fkrc-block">Select all the squares with</span>
+                <span class="fkrc-verifywin-header-text-big fkrc-m-p fkrc-block">bugs</span>
+                <span class="fkrc-verifywin-header-text-medium fkrc-m-p fkrc-block">If there are none, cry</span>
+            </header>
+            <main class="fkrc-verifywin-main">
+                <img src="img\bad-code.png" alt="Bad Code" height="150px">
+            </main>
+        </div>
+        <footer class="fkrc-verifywin-container fkrc-verifywin-footer">
+            <div class="fkrc-verifywin-footer-left">
+                Press the verify button to proceed.
+            </div>
+            <button type="button" class="fkrc-verifywin-verify-button fkrc-block" id="fkrc-verifywin-verify-button" onclick="Failed()">Verify</button>
+        </footer>
+    </div>
+    <img src="images/captcha_arrow.svg" alt="" class="fkrc-verifywin-window-arrow" id="fkrc-verifywin-window-arrow"/>
+</div>
+<!-- Fake captcha end -->
+<p style="font-size: 25px;">*Credit to 75a on GitHub for making the functionality of the fake Capthca: https://github.com/75a/fake-captcha</p>
+<script src="src/fakerecaptcha.js"></script>
